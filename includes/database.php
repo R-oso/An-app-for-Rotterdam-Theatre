@@ -1,6 +1,6 @@
 <?php
 
-// General settings
+//General settings
 $host       = "localhost";
 $name       = "root";
 $password   = "";

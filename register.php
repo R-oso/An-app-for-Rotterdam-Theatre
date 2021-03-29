@@ -4,14 +4,15 @@ require_once 'includes/database.php';
 /** @var mysqli $db */
 
 if (isset($_POST['submit'])) {
-
-    $name = mysqli_escape_string($db, $_POST['name']);
-    $password = mysqli_escape_string($db, $_POST['password']);
+    $name = $_POST['name'];
+    $password = $_POST['password'];
     $password_repeat = mysqli_escape_string($db, $_POST['password_repeat']);
 
     require_once 'includes/functions.php';
     if (emptyInput($name, $password, $password_repeat) !== false) {
         header("location: register.php?error=emptyinput");
+        exit();
+
     }
 
     if (invalidUser($name) !== false) {
@@ -20,14 +21,16 @@ if (isset($_POST['submit'])) {
     }
 
     if (passwordMatch($password, $password_repeat) !== false){
-    header("location: register.php?error=nomatch");
-    exit();
-    }
+        header("location: register.php?error=nomatch");
+        exit();
+    } else
 
     if (usernameExist($db, $name) !== false) {
         header("location: register.php?error=email/usernametaken");
         exit();
     }
+
+        createUser($db, $name, $password);
 
 }
 
@@ -53,7 +56,7 @@ if (isset($_POST['submit'])) {
 
         <p>
             <label for="name">
-                <input type="text" name="username">
+                <input type="text" name="name">
             </label>
         </p>
 
@@ -75,7 +78,7 @@ if (isset($_POST['submit'])) {
             </label>
         </button>
 
-        <button><a href="index.php">terug</a></button>
+        <button><a href="login.php">terug</a></button>
 
     </section>
 
