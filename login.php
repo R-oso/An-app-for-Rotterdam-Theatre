@@ -44,6 +44,8 @@ if (isset($_POST['submit'])) {
 
         <section class="login">
 
+            <img src="includes/images/logo_tr_1.png" class="logo" alt="logo_theaterRotterdam">
+
             <div class="form_input">
                 <label for="username" class="form_label">
                     <input type="text" name="username" class="input_field"
@@ -64,7 +66,7 @@ if (isset($_POST['submit'])) {
                 </label>
             </button>
 
-            <button class="button_register"><a href="register.php">Nog geen account?</a></button>
+
 
         </section>
     </div>
