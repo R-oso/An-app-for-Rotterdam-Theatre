@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
 <link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Theater Rotterdam</title>
 </head>
 
 <body>
