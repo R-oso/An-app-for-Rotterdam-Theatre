@@ -62,14 +62,16 @@ if (isset($_POST['submit'])) {
 
             <button class="submit_button">
                 <label for="submit">
-                    <input type="submit" name="submit" value="Inloggen" class="submit_input">
+                    <input type="submit" name="submit" value="Login" class="submit_input">
                 </label>
             </button>
 
-
+            <button class="button_register"><a href="register.php">
+                    Don't have an account yet? Click here to registrate!</a></button>
 
         </section>
     </div>
+
 
 </form>
 

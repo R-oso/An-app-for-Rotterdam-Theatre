@@ -34,11 +34,11 @@ header {
 .login {
     background-color: #ffffff;
     width: 750px;
-    height: 1300px;
+    height: 80%;
     border-radius: 30px;
 
     position: fixed;
-    top: 50%;
+    top: 59%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -51,14 +51,10 @@ header {
 .logo {
     object-fit: contain;
     width: 50%;
-    height: 25%;
+    height: 18%;
 
     margin-left: 24%;
-
-
 }
-
-
 
 .form_input {
     display: flex;
@@ -67,8 +63,8 @@ header {
 
 .input_field {
     width: 400px;
-    padding: 50px;
-    margin: 2em;
+    padding: 40px;
+    margin: 60px;
     font-size: 40px;
     font-family: Moderat_light;
     border: #222222 solid 2px;
@@ -87,7 +83,7 @@ header {
 
 .submit_button {
     background-color: #4b2c44;
-    box-shadow: -25px 30px #965988, -20px 20px #D67EC2, -10px 10px #D67EC2;
+    box-shadow: -20px 20px #965988;
     border: none;
 
     height: 170px;
@@ -106,10 +102,42 @@ header {
 }
 
 .button_register {
-    margin-top: 50px;
-    height: 100px;
-    width: 50%;
-    margin-left: 187.5px;
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    width: 40%;
+    background-color: white;
+
+    border: #222222 4px solid;
+    color: black;
+    font-size: 25px;
+    font-family: Moderat_light;
+}
+
+.button_register a {
+    text-decoration: none;
+    color: #4b2c44;
+}
+
+/** Classes that will de active After the login and register pages **/
+
+.header_2 {
+    margin-top: 300px;
+}
+
+.form_input_2 {
+    margin-top: 200px;
+}
+
+.logo_2 {
+    width: 300px;
+    height: 300px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 

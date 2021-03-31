@@ -1,10 +1,10 @@
 <?php
 
 
-function emptyInput($name, $password, $password_repeat) {
+function emptyInput($name, $email, $password, $password_repeat) {
 
     $result;
-    if (empty($name) || empty($password) || empty($password_repeat)) {
+    if (empty($name) || empty($email) || empty($password) || empty($password_repeat)) {
         $result = true;
 
     }
@@ -41,10 +41,10 @@ function passwordMatch($password, $password_repeat) {
 
 }
 
-function usernameExist($db, $name) {
+function usernameExist($db, $name, $email) {
     $result;
 
-    $sql = "SELECT * from profiles WHERE Name = ?;";
+    $sql = "SELECT * from profiles WHERE Name = ? or Email = ?;";
     $stmt = $db->prepare($sql);
 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -52,7 +52,7 @@ function usernameExist($db, $name) {
         exit();
     }
 
-    $stmt->bind_param("s", $name);
+    $stmt->bind_param("ss", $name, $email);
     $stmt->execute();
     $resultData = $stmt->get_result();
     
@@ -67,9 +67,9 @@ function usernameExist($db, $name) {
     }
 }
 
-function createUser($db, $name, $password) {
-    $sql = "INSERT INTO profiles (`Name`, `Password`) 
-                     VALUES (?, ?);";
+function createUser($db, $name, $email,  $password) {
+    $sql = "INSERT INTO profiles (`Name`, `Email`, `Password`) 
+                     VALUES (?, ?, ?);";
 
     $stmt = $db->prepare($sql);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -77,7 +77,7 @@ function createUser($db, $name, $password) {
         exit();
     } else {
         $hash = password_hash($password, PASSWORD_DEFAULT);
-        $stmt->bind_param("ss", $name, $hash);
+        $stmt->bind_param("sss", $name, $email, $hash);
         $stmt->execute();
         $stmt->close();
     }
@@ -97,7 +97,7 @@ function emptyInputLogin($username, $password) {
 }
 
 function LoginUser($db, $username, $password) {
-$userExists = usernameExist($db, $username);
+$userExists = usernameExist($db, $username, $username);
     if ($userExists == false) {
         header("location: login.php?error=wronglogin");
         exit();
@@ -114,7 +114,7 @@ $userExists = usernameExist($db, $username);
         require_once 'login.php';
         $_SESSION['loggedIn'] = $userExists['Customer_ID'];
         $_SESSION['userName'] = $userExists['Name'];
-        header("location: login.php?loggedin!");
+        header("location: connect-show.php");
         session_write_close();
     }
 }
