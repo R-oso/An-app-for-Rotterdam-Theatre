@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Added translation effect for form, and logo." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pw3Z7dzxHpJZlNGd1QG8nEDk5j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="" />
+      <created>1616080378023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616080378023</updated>
+      <workItem from="1616080379117" duration="1506000" />
+      <workItem from="1616578099472" duration="900000" />
+      <workItem from="1616586594220" duration="7293000" />
+      <workItem from="1616756572861" duration="8012000" />
+      <workItem from="1617005341852" duration="737000" />
+      <workItem from="1617006329066" duration="826000" />
+      <workItem from="1617010537694" duration="1987000" />
+    </task>
+    <task id="LOCAL-00001" summary="big test">
+      <created>1616080404903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616080404903</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Code added">
+      <created>1616081988794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616081988794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Front-end code, styling and fonts added.">
+      <created>1617005525352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617005525352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added translation effect for form, and logo.">
+      <created>1617013876693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617013876693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="big test" />
+    <MESSAGE value="Code added" />
+    <MESSAGE value="Front-end code, styling and fonts added." />
+    <MESSAGE value="Added translation effect for form." />
+    <MESSAGE value="Added translation effect for form, and logo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added translation effect for form, and logo." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616758255742">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875@0.25.1440.875" timestamp="1616758255742" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617013884897">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617013884897" />
+  </component>
+</project>
