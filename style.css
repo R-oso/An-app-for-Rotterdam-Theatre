@@ -22,7 +22,6 @@ header {
     margin-top: 50px;
 
     text-align: center;
-
 }
 
 .wrapper {
@@ -91,6 +90,28 @@ header {
     margin-left: 187.5px;
 }
 
+.submit_button_2 {
+    width: 50%;
+    transform: translate(50%, -50%);
+    padding: 50px;
+
+    margin-top: 100px;
+    background-color: #C3CBE8;
+    border: none;
+}
+
+.submit_button_2 input {
+    background-color: #C3CBE8;
+    border: none;
+    font-size: 40px;
+    color: white;
+    font-family: Moderat_light;
+}
+
+.submit_button_2 label {
+
+}
+
 .submit_input {
     background-color: #4b2c44;
     padding: 35px;
@@ -126,6 +147,38 @@ header {
     margin-top: 300px;
 }
 
+.header_2 h2 {
+    background-color: #576943;
+    color: white;
+    width: 50%;
+    transform: translate(41%, -50%);
+
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+}
+
+.header_2 p {
+    padding-top: 5%;
+}
+
+#filterText {
+    text-decoration: none;
+    color: #4b2c44;
+    font-size: 50px;
+    font-family: Moderat_light;
+
+}
+
+#filterClick {
+    height: 270px;
+    width: 60%;
+    transform: translate(35%);
+    /*background-color: #B0B5AA;*/
+    text-align: center;
+    transition: ease-in-out background-color 1.0s, height 1.0s;
+}
+
 .form_input_2 {
     margin-top: 200px;
 }
@@ -133,11 +186,28 @@ header {
 .logo_2 {
     width: 300px;
     height: 300px;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.arrow_icon {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+.filter_clicked {
+    height: +700px;
+    background-color: #C3CBE8;
+}
+
+.filter_clicked_text {
+    font-size: 100px;
+    color: white;
+    padding-top: 500px;
 }
 
 

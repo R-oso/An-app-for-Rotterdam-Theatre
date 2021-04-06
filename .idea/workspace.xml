@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Added translation effect for form, and logo.">
-      <change afterPath="$PROJECT_DIR$/connect-show.php" afterDir="false" />
+    <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Added html pages register and connect-show, logging in now works fine.">
+      <change afterPath="$PROJECT_DIR$/filter-here.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/watching-show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect-show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -34,6 +35,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +83,10 @@
       <workItem from="1617005341852" duration="737000" />
       <workItem from="1617006329066" duration="826000" />
       <workItem from="1617010537694" duration="1987000" />
-      <workItem from="1617180041366" duration="5620000" />
+      <workItem from="1617180041366" duration="6569000" />
+      <workItem from="1617307604655" duration="714000" />
+      <workItem from="1617623239152" duration="8932000" />
+      <workItem from="1617708134434" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="big test">
       <created>1616080404903</created>
@@ -112,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617180093773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added html pages register and connect-show, logging in now works fine.">
+      <created>1617193034095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617193034095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +154,8 @@
     <MESSAGE value="Front-end code, styling and fonts added." />
     <MESSAGE value="Added translation effect for form." />
     <MESSAGE value="Added translation effect for form, and logo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added translation effect for form, and logo." />
+    <MESSAGE value="Added html pages register and connect-show, logging in now works fine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added html pages register and connect-show, logging in now works fine." />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616758255742">
@@ -147,13 +166,25 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="358" y="228" key="MultipleFileMergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1617180108974" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617013884897">
+    <state x="540" y="390" key="NewPhpFileDialog" timestamp="1617646722301">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617013884897" />
+    <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1617646722301" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617193054360">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617193054360" />
     <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617180100135">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1617180100135" />
+    <state x="421" y="188" width="597" height="548" key="find.popup" timestamp="1617649198966">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="421" y="188" width="597" height="548" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1617649198966" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1617648828412">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1617648828412" />
   </component>
 </project>
