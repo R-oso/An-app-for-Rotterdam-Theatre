@@ -16,7 +16,7 @@ a {
 }
 
 body {
-   background-color: #e2e8db;
+    background-color: #e2e8db;
 }
 
 header {
@@ -81,7 +81,7 @@ header {
     border-color: #e2e8db;
     border-width: 6px;
     transition: border-radius 0.25s;
-    outline:0 !important;
+    outline: 0 !important;
 }
 
 .submit_button {
@@ -238,5 +238,43 @@ header {
     padding-top: 500px;
 }
 
+/*Agenda style*/
 
+.agenda-header {
+    font-size: medium;
+    padding: 10px 0 10px 0;
+}
+
+.agenda-header img {
+    width: 20%;
+    height: 20%;
+}
+
+.agenda-items h2 {
+    padding: 15px 0 30px 0;
+    font-size: large;
+    text-align: center;
+}
+.item {
+padding-top: 20px;
+}
+
+.agenda-items img {
+    width: 280px;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+    border: #5990B5 solid 20px;
+}
+
+.agenda-items h3 {
+    text-align: center;
+    padding: 15px 0 0 0;
+
+}
+
+.agenda-items h4 {
+    text-align: center;
+    padding-top: 10px;
+}
 
