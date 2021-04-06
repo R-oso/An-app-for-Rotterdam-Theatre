@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
    background-color: #e2e8db;
 }
@@ -192,11 +196,35 @@ header {
 }
 
 .arrow_icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     position: fixed;
-    top: 50px;
+    top: 55px;
     left: 20px;
+}
+
+.circle {
+    top: 35px;
+    right: 30px;
+    position: fixed;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle p {
+    font-size: 33px;
+    font-family: Moderat_light;
+    color: black;
+}
+
+.circle a {
+    color: black;
 }
 
 .filter_clicked {

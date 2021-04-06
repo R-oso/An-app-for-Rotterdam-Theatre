@@ -20,8 +20,15 @@ if (!isset($_SESSION["loggedIn"]) && !isset($_SESSION["userName"])) {
 
 <form method="post">
     <img src="includes/images/logo_tr_1.png" class="logo_2" alt="logo_theaterRotterdam">
+
     <a href="connect-show.php" >
         <img src="includes/images/pijltje.png" class="arrow_icon" alt="arrow_icon">
+    </a>
+
+    <a href="logout.php">
+    <div class="circle">
+        <p>Logout</p>
+    </div>
     </a>
 
     <header class="header_2">
