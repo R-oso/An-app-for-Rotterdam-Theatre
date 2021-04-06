@@ -73,13 +73,13 @@ if (isset($_POST['submit'])) {
 
         <div class="form_input">
             <label for="password">
-                <input type="text" name="password" class="input_field" placeholder="Your password">
+                <input type="password" name="password" class="input_field" placeholder="Your password">
             </label>
         </div>
 
         <div class="form_input">
             <label for="password_repeat">
-                <input type="text" name="password_repeat" class="input_field"
+                <input type="password" name="password_repeat" class="input_field"
                        placeholder="Please enter your password again">
             </label>
         </div>
