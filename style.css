@@ -238,6 +238,23 @@ header {
     padding-top: 500px;
 }
 
+.filter_button {
+    padding: 30px;
+    width: 50%;
+    transform: translate(35%, 50%);
+    display: block;
+    font-size: 35px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-family: Moderat_light;
+    color: #222222;
+
+    transition: ease-in-out padding 1s, margin 1s;
+
+}
+
 .nav-wrapper {
 
 }
