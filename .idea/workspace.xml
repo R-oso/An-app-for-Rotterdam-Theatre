@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Added being able to log out">
-      <change afterPath="$PROJECT_DIR$/filter-here.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/show-filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP&lt;7.4.11&gt;" />
   <component name="ProjectId" id="1pw3Z7dzxHpJZlNGd1QG8nEDk5j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CLE2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,6 +91,7 @@
       <workItem from="1617623239152" duration="8932000" />
       <workItem from="1617708134434" duration="2474000" />
       <workItem from="1617717368346" duration="1996000" />
+      <workItem from="1617739187657" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="big test">
       <created>1616080404903</created>
@@ -172,39 +177,5 @@
     <MESSAGE value="Front-end updated and added a javascript function. Also added arrow click to go back to the previous page." />
     <MESSAGE value="Added being able to log out" />
     <option name="LAST_COMMIT_MESSAGE" value="Added being able to log out" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616758255742">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875@0.25.1440.875" timestamp="1616758255742" />
-    <state x="358" y="228" key="MultipleFileMergeDialog" timestamp="1617180108974">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="358" y="228" key="MultipleFileMergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1617180108974" />
-    <state x="540" y="390" key="NewPhpFileDialog" timestamp="1617715365566">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1617715365566" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1617731538002">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="100" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617731538002" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617715608000">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617715608000" />
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617180100135">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1617180100135" />
-    <state x="421" y="188" width="597" height="548" key="find.popup" timestamp="1617649198966">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="421" y="188" width="597" height="548" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1617649198966" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1617648828412">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1617648828412" />
   </component>
 </project>

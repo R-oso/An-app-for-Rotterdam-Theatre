@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <title>Theater Rotterdam</title>
 </head>
-
+<? include_once "includes/header.php";?>
 <body>
 
 <form method="post">
