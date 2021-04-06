@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Front-end updated and added a javascript function. Also added arrow click to go back to the previous page.">
+    <list default="true" id="01ece86e-7321-4e5a-be92-6f0e01aa5c59" name="Default Changelist" comment="Added being able to log out">
       <change afterPath="$PROJECT_DIR$/filter-here.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show-filter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watching-show.php" beforeDir="false" afterPath="$PROJECT_DIR$/watching-show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +85,8 @@
       <workItem from="1617180041366" duration="6569000" />
       <workItem from="1617307604655" duration="714000" />
       <workItem from="1617623239152" duration="8932000" />
-      <workItem from="1617708134434" duration="2432000" />
+      <workItem from="1617708134434" duration="2474000" />
+      <workItem from="1617717368346" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="big test">
       <created>1616080404903</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617714579313</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added being able to log out">
+      <created>1617715603707</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617715603707</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +170,8 @@
     <MESSAGE value="Added translation effect for form, and logo." />
     <MESSAGE value="Added html pages register and connect-show, logging in now works fine." />
     <MESSAGE value="Front-end updated and added a javascript function. Also added arrow click to go back to the previous page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Front-end updated and added a javascript function. Also added arrow click to go back to the previous page." />
+    <MESSAGE value="Added being able to log out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added being able to log out" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616758255742">
@@ -179,10 +186,14 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1617715365566" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617714595128">
+    <state x="229" y="100" key="SettingsEditor" timestamp="1617731538002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617731538002" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1617715608000">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617714595128" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1617715608000" />
     <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617180100135">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
